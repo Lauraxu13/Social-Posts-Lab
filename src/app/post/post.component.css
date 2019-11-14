@@ -1,0 +1,18 @@
+article {
+  font-family: "Dosis", sans-serif;
+  border-bottom: #f3f1f7 solid 2px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fas{
+  color: black;
+  font-size: 27px;
+  
+ 
+}
+
+button{
+  border: none;
+  background: white;
+}

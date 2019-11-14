@@ -1,0 +1,7 @@
+<button type ="button">New Thought</button>
+
+<Section>
+<app-post *ngFor="let post of posts; index as i" [post]="post" (deleted)="onDelete(i)"></app-post>
+</Section>
+
+<app-post-form (submitted)="onSubmit($event)"></app-post-form>
